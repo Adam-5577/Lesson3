@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW3</title>
+</head>
+<body>
+    <script>
+      function TEST(age) {
+	var age  = prompt ('How old are YOU?');
+	YEARS = age;
+	if (YEARS >= 5 && YEARS <= 20) {
+		txt = 'лет';
+	} else {
+		YEARS = YEARS % 10;
+		if (YEARS == 1) {
+			
+            txt = 'год';
+
+		} else if (Old >= 2 && Old <= 4) {
+			txt = 'года';
+           
+		} else {
+			
+            txt = 'лет';
+		}
+	}
+	alert(age+" "+txt);
+
+}
+TEST();
+    </script>
+</body>
+</html>
